@@ -34,6 +34,7 @@ apt-get install -qq --no-install-recommends \
     libthrift-0.16.0 \
     libthrift-dev \
     libtool \
+    libupb-dev \
     pkg-config \
     protobuf-compiler \
     protobuf-compiler-grpc \
