@@ -1,4 +1,8 @@
 def get_grpc_linkopts():
     return [
-        "-L/usr/local/lib", "-lgrpc++", "-lgrpc", "-lprotobuf", "-labsl_cord", "-labsl_cordz_info", "-labsl_cord_internal", "-labsl_cordz_functions", "-labsl_exponential_biased", "-labsl_cordz_handle", "-labsl_bad_optional_access", "-labsl_str_format_internal", "-labsl_hash", "-labsl_city", "-labsl_low_level_hash", "-lgpr", "-lupb", "-lcares", "-lre2", "-labsl_statusor", "-labsl_status", "-labsl_time", "-labsl_civil_time", "-labsl_time_zone", "-labsl_strings", "-labsl_strings_internal", "-labsl_base", "-labsl_spinlock_wait", "-labsl_int128", "-labsl_throw_delegate", "-labsl_raw_logging_internal", "-labsl_log_severity", "-labsl_synchronization", "-labsl_graphcycles_internal", "-labsl_stacktrace", "-labsl_symbolize", "-labsl_debugging_internal", "-labsl_demangle_internal", "-labsl_malloc_internal", "-laddress_sorting"
+        "-lgrpc++", "-lgrpc", "-lprotobuf", "-lgpr",
+        "-labsl_cord", "-labsl_strings", "-labsl_base",
+        "-labsl_synchronization", "-labsl_status",
+        "-labsl_statusor", "-labsl_time",
+        "-lre2", "-lcares", "-lupb"
     ]
